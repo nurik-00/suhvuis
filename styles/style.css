@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=EB+Garamond:wght@400;500&family=Mulish:wght@300;700&family=Special+Elite&family=Supermercado+One&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+}
+
+p {
+  color: #ffffff;
+}
+
+.h-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.h-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 140px;
+}
+
+header nav a {
+  margin-left: 40px;
+  color: #5a4a36;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+.active-link {
+  color: rgb(145, 75, 35);
+  opacity: 1;
+  font-weight: 700;
+}
+
+.w-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.inner {
+  padding: 75px 0;
+}
+
+.w-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#welcome img {
+  width: 308px;
+}
+
+#welcome {
+  background: linear-gradient(
+    90deg,
+    rgba(187, 125, 175, 1) 14%,
+    rgba(142, 180, 201, 1) 51%,
+    rgba(224, 172, 116, 1) 100%
+  );
+}
+
+.welcome h1 {
+  font-size: 2rem;
+}
+
+.w-text h1 {
+  color: #91642d;
+}
+
+.w-details {
+  width: 450px;
+  color: #7d7989;
+}
+
+.m-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.m-text {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #91642d;
+}
+
+.m-text hr {
+  width: 56px;
+  height: 2px;
+  background-color: rgb(214, 152, 94);
+  margin: 35px auto;
+}
+
+.m-cards .card {
+  box-shadow: 0 0 15px #999;
+  background-color: #e9cae0;
+  width: 270px;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.card-info {
+  padding: 25px 25px 50px 25px;
+  padding-top: 0.5px;
+}
+
+.card-info h1 {
+  font-size: 1.12rem;
+}
+
+.card-info p,
+.card-info a {
+  font-size: 1rem;
+}
+
+.card-info h1 {
+  color: #91642d;
+}
+
+.m-cards .card img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  margin-bottom: 0 auto;
+}
+
+.m-cards a {
+  color: #779bce;
+  text-decoration: none;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-row p {
+  color: #5f3e16;
+}
+
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgba(230, 132, 219, 1) 14%,
+    rgba(218, 142, 61, 1) 52%,
+    rgba(110, 185, 227, 1) 84%
+  );
+}
+
+.f-wrapper {
+  width: 75%;
+  margin: 0 auto;
+  padding: 7px 0;
+}
+
+.f-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description {
+  width: 35%;
+}
+
+.description p {
+  color: #5f3e16;
+}
+
+.f-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.f-container h2 {
+  color: #5a4a36;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.links {
+  width: 10%;
+}
+
+.links ul {
+  line-height: 1.5;
+}
+
+.links ul li {
+  margin-bottom: 15px;
+}
+
+.links a {
+  color: #91642d;
+  text-decoration: none;
+  font-weight: 300;
+}
